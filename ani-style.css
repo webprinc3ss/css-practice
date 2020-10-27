@@ -1,0 +1,50 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform-origin: center;
+    animation: rotate 2s ease forwards infinite;
+}
+
+.circle {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle:nth-child(1) {
+    left: -100px;
+}
+
+.circle:nth-child(2) {
+    left: 100px;
+    top: -40px;
+}
+
+@keyframes rotate {
+    0%{
+transform:rotate(0deg);
+    }
+
+    50% {
+transform:rotate(0deg);
+    }
+
+    100% {
+transform:rotate(360deg);
+    }
+}
