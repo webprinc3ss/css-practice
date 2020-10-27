@@ -28,23 +28,71 @@ body {
 
 .circle:nth-child(1) {
     left: -100px;
+    animation:slideleft 2s ease forwards infinite;
 }
 
 .circle:nth-child(2) {
     left: 100px;
     top: -40px;
+    animation:slideright 2s ease forwards infinite;
 }
 
 @keyframes rotate {
     0%{
-transform:rotate(0deg);
+    background: #00e5ff;
+    transform:rotate(0deg);
+    }
+
+    25% {
+    background: #aa00ff;
     }
 
     50% {
-transform:rotate(0deg);
+    background: #0761ff;
+    transform:rotate(0deg);
     }
 
     100% {
-transform:rotate(360deg);
+    background: #00e5ff;
+    transform:rotate(360deg);
     }
+}
+
+@keyframes slideleft {
+    0%{
+        background: #00e5ff;
+        transform:translatex(0px);
+
+    }
+    25%{
+        background: #aa00ff;
+        transform:translatex(-100px);
+    }   
+    50%{
+        background: #0761ff;
+        transform:translatex(0px);
+    }
+    100%{
+        background: #00e5ff;
+    
+    }
+}
+
+@keyframes slideright {
+    0%{
+        background: #00e5ff;
+        transform:translatex(0px);
+    }
+    25%{
+        background: #aa00ff;
+        transform:translatex(100px);
+    }   
+    50%{
+        background: #0761ff;
+        transform:translatex(0px);
+    }
+    100%{
+        background: #00e5ff;
+    }
+    
 }

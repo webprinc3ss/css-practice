@@ -1,8 +1,22 @@
-# css-practice
+# CSS Practice
 
-These are a variety of CSS3 code practice pages.
+## Purpose
+The purpose of this repo is to hold my CSS pratice tutorials.
+<br>
+<br>
 
-So far for:
 
--grid
--animation
+# Built With
+- HTML
+- CSS
+<br><br>
+
+# Tutorials
+
+[Angela Delise](https://www.youtube.com/watch?v=qQfIjRjZpx0)
+<br>
+
+
+# Credit
+Coded by webprinc3ss (me).
+
